@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: sass-project-app_production
-  username: sass-project-app
+  # database: sass-project-app_production
+  # username: sass-project-app
   password: <%= ENV['SASS-PROJECT-APP_DATABASE_PASSWORD'] %>
