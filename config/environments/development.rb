@@ -40,6 +40,6 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
 
   #sass-app sendgrid addon config
-  config.action_mailer.delivery_method = :test
-  config.action_mailer.default_url_options = { :host => 'http://sass-project-app.herokuapp.com/'}
+  # config.action_mailer.delivery_method = :test
+  # config.action_mailer.default_url_options = { :host => 'http://sass-project-app.herokuapp.com/'}
 end

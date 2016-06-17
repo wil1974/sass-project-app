@@ -43,8 +43,11 @@ group :development, :test do
   gem 'spring'
 
   gem 'thin'
+  gem 'awesome_print'
 end
 
 group :production do
   gem 'rails_12factor'
 end
+
+gem 'devise'
